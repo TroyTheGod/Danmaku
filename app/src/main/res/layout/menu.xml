@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center|left"
+        android:text="Version: "
+        />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center|left"
+        android:text="Author: Asnet / Bilibili: NotMr_A(212338734)"
+        />
+
+    <TextView
+        android:id="@+id/tvCheckUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center|left"
+        android:text="Check update"
+        />
+</LinearLayout>
